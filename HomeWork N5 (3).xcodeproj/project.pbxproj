@@ -16,6 +16,8 @@
 		AF5A0CDC2944A6F8002E2AFD /* HomeWork_N5__3_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5A0CDB2944A6F8002E2AFD /* HomeWork_N5__3_Tests.swift */; };
 		AF5A0CE62944A6F8002E2AFD /* HomeWork_N5__3_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5A0CE52944A6F8002E2AFD /* HomeWork_N5__3_UITests.swift */; };
 		AF5A0CE82944A6F8002E2AFD /* HomeWork_N5__3_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5A0CE72944A6F8002E2AFD /* HomeWork_N5__3_UITestsLaunchTests.swift */; };
+		AF5A0CF52944A990002E2AFD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5A0CF42944A990002E2AFD /* TableViewCell.swift */; };
+		AF5A0CF72944AAA6002E2AFD /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5A0CF62944AAA6002E2AFD /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AF5A0CE12944A6F8002E2AFD /* HomeWork N5 (3)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HomeWork N5 (3)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5A0CE52944A6F8002E2AFD /* HomeWork_N5__3_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_N5__3_UITests.swift; sourceTree = "<group>"; };
 		AF5A0CE72944A6F8002E2AFD /* HomeWork_N5__3_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_N5__3_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF5A0CF42944A990002E2AFD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AF5A0CF62944AAA6002E2AFD /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +106,11 @@
 				AF5A0CC42944A6F6002E2AFD /* AppDelegate.swift */,
 				AF5A0CC62944A6F6002E2AFD /* SceneDelegate.swift */,
 				AF5A0CC82944A6F6002E2AFD /* ViewController.swift */,
+				AF5A0CF62944AAA6002E2AFD /* model.swift */,
 				AF5A0CCA2944A6F6002E2AFD /* Main.storyboard */,
 				AF5A0CCD2944A6F8002E2AFD /* Assets.xcassets */,
 				AF5A0CCF2944A6F8002E2AFD /* LaunchScreen.storyboard */,
+				AF5A0CF42944A990002E2AFD /* TableViewCell.swift */,
 				AF5A0CD22944A6F8002E2AFD /* Info.plist */,
 			);
 			path = "HomeWork N5 (3)";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5A0CF72944AAA6002E2AFD /* model.swift in Sources */,
 				AF5A0CC92944A6F6002E2AFD /* ViewController.swift in Sources */,
+				AF5A0CF52944A990002E2AFD /* TableViewCell.swift in Sources */,
 				AF5A0CC52944A6F6002E2AFD /* AppDelegate.swift in Sources */,
 				AF5A0CC72944A6F6002E2AFD /* SceneDelegate.swift in Sources */,
 			);
